@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: slategrey;
+}
+
+#root .begin {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #293264;
+  background-color: #fff;
+  width: 680px;
+  height: 680px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+#root .begin .bottom-left {
+  position: absolute;
+  bottom: -140px;
+  left: -184px;
+}
+
+#root .begin .top-right {
+  position: absolute;
+  top: -150px;
+  right: -120px;
+}
+
+#root .begin .app-title {
+  padding: 13px;
+}
+
+#root .begin button {
+  background-color: #293264;
+  padding: 12px 30px;
+  border: 2px solid #293264;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+#root .begin button:hover {
+  background-color: #fff;
+  color: #293264;
+}
+
+.qs {
+  padding: 10px 0px;
+  width: 550px;
+  border-bottom: 0.794239px solid #dbdef0;
+}
+
+.qs .question {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.qs .choices {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  gap: 12px;
+}
+
+.qs .choices .choice {
+  font-size: 14px;
+  border: 2px solid #293264;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: 600;
+  padding: 4px 15px;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+.start-quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chck-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
